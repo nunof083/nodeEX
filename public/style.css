@@ -1,0 +1,22 @@
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+img {
+    width: 10%;
+}
+
+.name-folder {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items do not wrap to the next line */
+}
+
+li {
+    flex: 0 0 auto; /* Prevents items from growing or shrinking */
+    margin: 10px; /* Adds some space between items */
+}
